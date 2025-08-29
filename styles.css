@@ -43,6 +43,7 @@ Variables
   --clr-green-dark: hsl(125, 67%, 44%);
   --clr-green-light: hsl(125, 71%, 66%);
   --clr-black: #222;
+  --clr-black-hover: #4d4d4d;
   --ff-primary: "Roboto", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
   --transition: all 0.3s linear;
@@ -201,6 +202,9 @@ main {
 }
 .container {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .container h2 {
   background: var(--clr-black);
@@ -218,7 +222,6 @@ main {
   background: transparent;
   color: var(--clr-black);
   letter-spacing: var(--spacing);
-  display: inline-block;
   font-weight: 700;
   transition: var(--transition);
   border: 2px solid var(--clr-black);
@@ -227,8 +230,47 @@ main {
   border-radius: var(--radius);
   font-size: 1rem;
   padding: 0.75rem 1.25rem;
+  width: 60%;
 }
 .btn-hero:hover {
   color: var(--clr-white);
   background: var(--clr-black);
+}
+.btn-confirmar {
+  font-family: var(--ff-primary);
+  text-transform: uppercase;
+  background: var(--clr-black);
+  color: var(--clr-white);
+  letter-spacing: var(--spacing);
+  font-weight: 700;
+  transition: var(--transition);
+  border: 2px solid var(--clr-black);
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: var(--radius);
+  font-size: 1rem;
+  padding: 0.75rem 1.25rem;
+  width: 60%;
+}
+.btn-confirmar:hover {
+  color: var(--clr-white);
+  background: var(--clr-black-hover);
+}
+
+/*
+=============== 
+Input
+===============
+*/
+input{
+  font-family: var(--ff-primary);
+  background: transparent;
+  font-size: 2rem;
+  font-weight: 700;
+  border: 2px solid var(--clr-black);
+  padding: 0.75rem 1.25rem;
+  letter-spacing: var(--spacing);
+  width: 80%;
+  margin: 10px;
+  border-radius: var(--radius);
 }
