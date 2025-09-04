@@ -25,3 +25,6 @@ Você pode rodar o projeto de duas formas: **localmente no seu computador** ou *
 
 ### 🔹 Rodar online (GitHub Pages)
 - Basta acessar o link do GitHub Pages: https://dmaaraujo.github.io/color-flipper/index.html
+-----
+### 💡Desenvolvedores
+- Esse projeto foi desenvolvido por: Maria Eduarda Araújo e Matheus D'Addio.
